@@ -7,7 +7,7 @@ const LeftPanel = () => {
 
   useEffect(() => {
     fetch(
-      "https://api.nytimes.com/svc/topstories/v2/home.json?api-key=GavWsvVaMBa7qXjaATtbStalyGwgjtzZ"
+      "https://api.nytimes.com/svc/topstories/v2/home.json?api-key="
     )
       .then((response) => response.json())
       .then((data) => {

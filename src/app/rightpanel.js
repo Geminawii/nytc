@@ -7,7 +7,7 @@ const RightPanel = () => {
 
   useEffect(() => {
     fetch(
-      "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=GavWsvVaMBa7qXjaATtbStalyGwgjtzZ"
+      "https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key="
     )
       .then((response) => response.json())
       .then((data) => {
